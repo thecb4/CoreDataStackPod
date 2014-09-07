@@ -7,5 +7,5 @@ before_install:
     - xctool --version
     - cd Example && pod install && cd -
 script:
--xcodebuild -workspace Example/CoreDataStackPod.xcworkspace -scheme CoreDataStackPod -sdk iphonesimulator -configuration Debug clean build test
+-xcodebuild -workspace CoreDataStackPod.xcworkspace -scheme CoreDataStackPod -sdk iphonesimulator -configuration Debug clean build test
 
