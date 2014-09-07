@@ -165,7 +165,6 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
-				E9D1699719BBEB99008D5581 /* TestModel.xcdatamodeld */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -173,6 +172,7 @@
 		6003F5B6195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E9D1699719BBEB99008D5581 /* TestModel.xcdatamodeld */,
 				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 				6003F5B8195388D20070C39A /* InfoPlist.strings */,
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
