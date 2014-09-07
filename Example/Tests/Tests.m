@@ -16,31 +16,11 @@ describe(@"CoreDataStackPod Tests", ^{
 
       it(@"should not be nil", ^{
           CoreDataStack * coreDataStack = [CoreDataStack coreDataStackWithSharedModelName:@"TestModel" databaseFilename:nil];
-          [[coreDataStack shouldNot] beNil];
+          [[coreDataStack.managedObjectContext shouldNot] beNil];
       });
-/*
-      it(@"can read", ^{
-          [[@"number" should] equal:@"string"];
-      });
-    
-      it(@"will wait and fail", ^{
-          NSObject *object = [[NSObject alloc] init];
-          [[expectFutureValue(object) shouldEventually] receive:@selector(autoContentAccessingProxy)];
-      });
-*/
+
   });
-/*
-  context(@"will pass", ^{
-    
-      it(@"can do maths", ^{
-        [[@1 should] beLessThan:@23];
-      });
-    
-      it(@"can read", ^{
-          [[@"team" shouldNot] containString:@"I"];
-      });  
-  });
-*/
+
   
 });
 
