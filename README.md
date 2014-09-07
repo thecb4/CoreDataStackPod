@@ -1,6 +1,6 @@
 # CoreDataStackPod
 
-[![CI Status](http://img.shields.io/travis/CB/CoreDataStackPod.svg?style=flat)](https://travis-ci.org/seedsofcode/CoreDataStackPod.svg?branch=master)
+[![CI Status](http://img.shields.io/travis/CB/CoreDataStackPod.svg?style=flat)](https://travis-ci.org/seedsofcode/CoreDataStackPod)
 [![Version](https://img.shields.io/cocoapods/v/CoreDataStackPod.svg?style=flat)](http://cocoadocs.org/docsets/CoreDataStackPod)
 [![License](https://img.shields.io/cocoapods/l/CoreDataStackPod.svg?style=flat)](http://cocoadocs.org/docsets/CoreDataStackPod)
 [![Platform](https://img.shields.io/cocoapods/p/CoreDataStackPod.svg?style=flat)](http://cocoadocs.org/docsets/CoreDataStackPod)
