@@ -37,6 +37,17 @@
                BlueprintName = "Tests"
                ReferencedContainer = "container:CoreDataStackPod.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "InitialTests/MyInitialTests_WillFail_CanDoMaths">
+               </Test>
+               <Test
+                  Identifier = "InitialTests/MyInitialTests_WillFail_CanRead">
+               </Test>
+               <Test
+                  Identifier = "InitialTests/MyInitialTests_WillFail_WillWaitAndFail">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
