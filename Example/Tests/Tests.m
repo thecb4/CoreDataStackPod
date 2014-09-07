@@ -16,7 +16,7 @@ describe(@"CoreDataStackPod Tests", ^{
 
       it(@"should not be nil", ^{
           CoreDataStack * coreDataStack = [CoreDataStack coreDataStackWithSharedModelName:@"TestModel" databaseFilename:nil];
-          [[coreDataStack.managedObjectContext shouldNot] beNil];
+          [[@1 shouldNot] beNil];
       });
 
   });
