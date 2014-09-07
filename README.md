@@ -28,5 +28,5 @@ CB, developer@seedsofcode.com
 
 ## License
 
-CoreDataStackPod is available under the [MIT](http://opensource.org/licenses/MIT) license. See the [LICENSE](CoreDataStackPod/LICENSE) file for more info.
+CoreDataStackPod is available under the [MIT](http://opensource.org/licenses/MIT) license. See the [LICENSE](LICENSE) file for more info.
 
