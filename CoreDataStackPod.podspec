@@ -10,12 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "CoreDataStackPod"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CoreDataStackPod."
+  s.summary          = "A CocoaPod of CoreDataStack"
   s.description      = <<-DESC
-                       An optional longer description of CoreDataStackPod
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A [CocoaPod](http://cocoapods.org) of [CoreDataStack](https://github.com/adamgit/CoreDataStack)
                        DESC
   s.homepage         = "https://github.com/seedsofcode/CoreDataStackPod"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
