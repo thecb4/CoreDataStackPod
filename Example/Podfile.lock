@@ -1,0 +1,20 @@
+PODS:
+  - CoreDataStackPod (0.1.0)
+  - FBSnapshotTestCase (1.1)
+  - Kiwi (2.3.0)
+
+DEPENDENCIES:
+  - CoreDataStackPod (from `../`)
+  - FBSnapshotTestCase
+  - Kiwi
+
+EXTERNAL SOURCES:
+  CoreDataStackPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CoreDataStackPod: 64e9c274ca7fb9ccd9ce8c42c868bf331db56248
+  FBSnapshotTestCase: 9053afee1d66b4c7c313fcb0ae582a5e47bea9d0
+  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
+
+COCOAPODS: 0.33.1
