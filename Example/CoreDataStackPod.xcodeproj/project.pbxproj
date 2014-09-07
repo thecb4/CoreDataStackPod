@@ -26,6 +26,7 @@
 		914B13DA31D84B0692D44C85 /* libPods-CoreDataStackPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7F3D43CCA648DCB5BB8FA3 /* libPods-CoreDataStackPod.a */; };
 		E9D1699619BBE8FB008D5581 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E9D1699519BBE8FB008D5581 /* .gitignore */; };
 		E9D1699919BBEB99008D5581 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9D1699719BBEB99008D5581 /* TestModel.xcdatamodeld */; };
+		E9D1699B19BBEEBE008D5581 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = E9D1699A19BBEEBE008D5581 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		DCD116C3E3E14E2EB6FA1F52 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D1699519BBE8FB008D5581 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		E9D1699819BBEB99008D5581 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
+		E9D1699A19BBEEBE008D5581 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				E9D1699A19BBEEBE008D5581 /* .travis.yml */,
 				E9D1699519BBE8FB008D5581 /* .gitignore */,
 				9E9EC9295AE34014A06A494D /* CoreDataStackPod.podspec */,
 				D6FB1DE0478546EBAEA05509 /* README.md */,
@@ -282,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D1699B19BBEEBE008D5581 /* .travis.yml in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
