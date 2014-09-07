@@ -25,6 +25,7 @@
 		64A6FD3E99F740DB983262E9 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD116C3E3E14E2EB6FA1F52 /* libPods-Tests.a */; };
 		914B13DA31D84B0692D44C85 /* libPods-CoreDataStackPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7F3D43CCA648DCB5BB8FA3 /* libPods-CoreDataStackPod.a */; };
 		E9D1699619BBE8FB008D5581 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E9D1699519BBE8FB008D5581 /* .gitignore */; };
+		E9D1699919BBEB99008D5581 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9D1699719BBEB99008D5581 /* TestModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D6FB1DE0478546EBAEA05509 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DCD116C3E3E14E2EB6FA1F52 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D1699519BBE8FB008D5581 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		E9D1699819BBEB99008D5581 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				E9D1699719BBEB99008D5581 /* TestModel.xcdatamodeld */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				E9D1699919BBEB99008D5581 /* TestModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +590,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9D1699719BBEB99008D5581 /* TestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9D1699819BBEB99008D5581 /* TestModel.xcdatamodel */,
+			);
+			currentVersion = E9D1699819BBEB99008D5581 /* TestModel.xcdatamodel */;
+			path = TestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6003F582195388D10070C39A /* Project object */;
 }

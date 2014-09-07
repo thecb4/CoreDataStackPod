@@ -6,16 +6,19 @@
 //  Copyright (c) 2014 CB. All rights reserved.
 //
 
+#import <CoreDataStackPod/CoreDataStack.h>
+
 SPEC_BEGIN(InitialTests)
 
-describe(@"My initial tests", ^{
+describe(@"CoreDataStackPod Tests", ^{
 
-  context(@"will fail", ^{
+  context(@"setup", ^{
 
-      it(@"can do maths", ^{
-          [[@1 should] equal:@2];
+      it(@"should not be nil", ^{
+          CoreDataStack * coreDataStack = [CoreDataStack coreDataStackWithSharedModelName:@"TestModel" databaseFilename:nil];
+          [[coreDataStack shouldNot] beNil];
       });
-
+/*
       it(@"can read", ^{
           [[@"number" should] equal:@"string"];
       });
@@ -24,8 +27,9 @@ describe(@"My initial tests", ^{
           NSObject *object = [[NSObject alloc] init];
           [[expectFutureValue(object) shouldEventually] receive:@selector(autoContentAccessingProxy)];
       });
+*/
   });
-
+/*
   context(@"will pass", ^{
     
       it(@"can do maths", ^{
@@ -36,6 +40,7 @@ describe(@"My initial tests", ^{
           [[@"team" shouldNot] containString:@"I"];
       });  
   });
+*/
   
 });
 

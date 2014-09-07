@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/CoreDataStackPod.svg?style=flat)](http://cocoadocs.org/docsets/CoreDataStackPod)
 [![Platform](https://img.shields.io/cocoapods/p/CoreDataStackPod.svg?style=flat)](http://cocoadocs.org/docsets/CoreDataStackPod)
 
+## About
+A [CocoaPod](http://cocoapods.org) of [CoreDataStack](https://github.com/adamgit/CoreDataStack)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Ready to use
 
 ## Installation
 
