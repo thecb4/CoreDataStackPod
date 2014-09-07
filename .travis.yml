@@ -7,5 +7,5 @@ before_install:
     - xctool --version
     - cd Example && pod install && cd -
 script:
-- xctool test -workspace Example/CoreDataStackPod.xcworkspace -configuration Debug -scheme CoreDataStackPod -sdk iphonesimulator7.1 -arch i386 clean build ONLY_ACTIVE_ARCH=NO -showTasks
+- xctool test -workspace Example/CoreDataStackPod.xcworkspace -configuration Debug -scheme CoreDataStackPod -sdk iphonesimulator7.1 -arch clean build ONLY_ACTIVE_ARCH=NO -showTasks
 
