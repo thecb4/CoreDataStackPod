@@ -1,0 +1,10 @@
+target 'CoreDataStackPod', :exclusive => true do
+  pod "CoreDataStackPod", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "CoreDataStackPod", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
