@@ -6,5 +6,5 @@ before_install:
     - gem install cocoapods -v '0.33.1'
     - xctool --version
     - cd Example && pod install && cd -
-script: xcodebuild -workspace Example/CoreDataStackPod.xcworkspace -scheme CoreDataStackPod -sdk iphonesimulator -configuration Debug clean build test xcpretty
+script: xcodebuild -workspace Example/CoreDataStackPod.xcworkspace -scheme CoreDataStackPod -sdk iphonesimulator -configuration Debug clean build test
 
