@@ -25,8 +25,9 @@
 		64A6FD3E99F740DB983262E9 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD116C3E3E14E2EB6FA1F52 /* libPods-Tests.a */; };
 		914B13DA31D84B0692D44C85 /* libPods-CoreDataStackPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7F3D43CCA648DCB5BB8FA3 /* libPods-CoreDataStackPod.a */; };
 		E9D1699619BBE8FB008D5581 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E9D1699519BBE8FB008D5581 /* .gitignore */; };
-		E9D1699919BBEB99008D5581 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9D1699719BBEB99008D5581 /* TestModel.xcdatamodeld */; };
 		E9D1699B19BBEEBE008D5581 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = E9D1699A19BBEEBE008D5581 /* .travis.yml */; };
+		E9D169B019BD3504008D5581 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9D169AE19BD3504008D5581 /* TestModel.xcdatamodeld */; };
+		E9D169B119BD3504008D5581 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9D169AE19BD3504008D5581 /* TestModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +70,8 @@
 		D6FB1DE0478546EBAEA05509 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DCD116C3E3E14E2EB6FA1F52 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D1699519BBE8FB008D5581 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
-		E9D1699819BBEB99008D5581 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 		E9D1699A19BBEEBE008D5581 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
+		E9D169AF19BD3504008D5581 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +146,7 @@
 				6003F5A6195388D20070C39A /* cdspViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				E9D169AE19BD3504008D5581 /* TestModel.xcdatamodeld */,
 			);
 			path = CoreDataStackPod;
 			sourceTree = "<group>";
@@ -172,7 +174,6 @@
 		6003F5B6195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E9D1699719BBEB99008D5581 /* TestModel.xcdatamodeld */,
 				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 				6003F5B8195388D20070C39A /* InfoPlist.strings */,
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
@@ -363,6 +364,7 @@
 				6003F59E195388D20070C39A /* cdspAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* cdspViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E9D169B019BD3504008D5581 /* TestModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-				E9D1699919BBEB99008D5581 /* TestModel.xcdatamodeld in Sources */,
+				E9D169B119BD3504008D5581 /* TestModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,12 +598,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E9D1699719BBEB99008D5581 /* TestModel.xcdatamodeld */ = {
+		E9D169AE19BD3504008D5581 /* TestModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E9D1699819BBEB99008D5581 /* TestModel.xcdatamodel */,
+				E9D169AF19BD3504008D5581 /* TestModel.xcdatamodel */,
 			);
-			currentVersion = E9D1699819BBEB99008D5581 /* TestModel.xcdatamodel */;
+			currentVersion = E9D169AF19BD3504008D5581 /* TestModel.xcdatamodel */;
 			path = TestModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

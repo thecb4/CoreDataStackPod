@@ -10,12 +10,19 @@
 
 SPEC_BEGIN(InitialTests)
 
+
+
 describe(@"CoreDataStackPod Tests", ^{
 
   context(@"setup", ^{
 
       it(@"should not be nil", ^{
-          CoreDataStack * coreDataStack = [CoreDataStack coreDataStackWithSharedModelName:@"TestModel" databaseFilename:nil];
+          
+          NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"TestModel" withExtension:@"momd"];
+          
+          CoreDataStack * coreDataStack = [[CoreDataStack alloc] initWithURL: modelURL
+                                                                   modelName: @"TestModel"
+                                                                   storeType: CDSStoreTypeInMemory];
           [[coreDataStack.managedObjectContext shouldNot] beNil];
       });
 
