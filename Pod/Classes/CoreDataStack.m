@@ -48,6 +48,25 @@
 	return sharedStack;
 }
 
++(CoreDataStack*) coreDataStackInMemoryWithSharedModelName:(NSString *)mname
+{
+    static NSMutableDictionary* sharedModelsByNameANdDBName;
+    
+    if( sharedModelsByNameANdDBName == nil )
+    {
+        sharedModelsByNameANdDBName = [NSMutableDictionary new];
+    }
+    
+    CoreDataStack* sharedStack = [sharedModelsByNameANdDBName objectForKey:[self sharedNameForModelName:mname dbName:nil]];
+    if( sharedStack == nil )
+    {
+        sharedStack = [self coreDataStackInMemoryWithModelName:mname];
+        [sharedModelsByNameANdDBName setObject:sharedStack forKey:[self sharedNameForModelName:mname dbName:nil]];
+    }
+    
+    return sharedStack;
+}
+
 +(CoreDataStack*) coreDataStackWithModelName:(NSString *)mname databaseFilename:(NSString*) dbname
 {
 	NSURL *storeURL;
@@ -62,6 +81,19 @@
 												   storeType: CDSStoreTypeUnknown];
 	
 	return cds;
+}
+
++(CoreDataStack*) coreDataStackInMemoryWithModelName:(NSString *)mname
+{
+    NSURL *storeURL;
+    
+    storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:mname];
+    
+    CoreDataStack* cds = [[CoreDataStack alloc] initWithURL: storeURL
+                                                  modelName: mname
+                                                  storeType: CDSStoreTypeInMemory];
+    
+    return cds;
 }
 
 +(CoreDataStack*) coreDataStackWithModelName:(NSString *)mname

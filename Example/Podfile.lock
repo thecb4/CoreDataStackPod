@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CoreDataStackPod: 1d570c687c6626bbb79a9b48026c1917a2eda0ec
+  CoreDataStackPod: 14d1195ec132f0e83508244ccc87812bf15a524a
   FBSnapshotTestCase: 9053afee1d66b4c7c313fcb0ae582a5e47bea9d0
   Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
 

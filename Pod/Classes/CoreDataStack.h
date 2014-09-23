@@ -108,8 +108,11 @@ typedef enum CDSStoreType
 /*!
  NB: either keep this reference and re-use it throughout your app, or use the other version of this method that returns a "shared" pointer,
  otherwise you'll get CoreData inconsistency errors
+ 
+ @seedsofcode changes to be able to test in-memory database
  */
 +(CoreDataStack*) coreDataStackWithModelName:(NSString *)mname databaseFilename:(NSString*) dbname;
++(CoreDataStack*) coreDataStackInMemoryWithModelName:(NSString *)mname;
 
 /**
  Same as the other coreDataStackWithModelName methods, except this caches the result and if you call it again
@@ -117,8 +120,11 @@ typedef enum CDSStoreType
  
  This is convenient when you don't want to pass a CoreDataStack pointer back-and-forth between all your UIViewControllers,
  and makes it act like a singleton
+ 
+ @seedsofcode changes to be able to test in-memory database
  */
 +(CoreDataStack*) coreDataStackWithSharedModelName:(NSString *)mname databaseFilename:(NSString*) dbname;
++(CoreDataStack*) coreDataStackInMemoryWithSharedModelName:(NSString *)mname;
 
 /**
  Lower-level version of coreDataStackWithModelName that uses the underlying file URL.
