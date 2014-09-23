@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CoreDataStackPod"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A CocoaPod of CoreDataStack"
   s.description      = <<-DESC
                        A [CocoaPod](http://cocoapods.org) of [CoreDataStack](https://github.com/adamgit/CoreDataStack)
